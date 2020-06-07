@@ -21,11 +21,11 @@ entry_label.grid(row=0, column=0)
 
 # Entry box for user to enter name
 entrybox_text = tk.StringVar()
-entrybox = ttk.Entry(master, width=40, textvariable=entrybox_text)
+entrybox = ttk.Entry(master, width=50, textvariable=entrybox_text)
 entrybox.grid(row=0, column=1)
 
 # user presses button, calls handler to entername
-entry_button = ttk.Button(master, text='OK', command=enterdata)
+entry_button = ttk.Button(master, text='yes', command=enterdata)
 entry_button.grid(row=0, column=2)
 
 # Label to display message including name
